@@ -13,16 +13,3 @@
 # limitations under the License.
 
 $(call inherit-product, vendor/lenovo/TB3710F/TB3710F-vendor-blobs.mk)
-
-# Display
-PRODUCT_PACKAGES += \
-    libion
-
-# FMRadio
-PRODUCT_PACKAGES += \
-    libfmjni \
-    FMRadio
-
-# Sensor Calibration
-PRODUCT_PACKAGES += \
-    libem_sensor_jni

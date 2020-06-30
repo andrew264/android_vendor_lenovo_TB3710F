@@ -12,16 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/lenovo/TB3710F
+VENDOR_DIR := vendor/lenovo/TB3710F
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/bin,system/bin)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_DIR)/proprietary/bin,system/bin)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/etc,system/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_DIR)/proprietary/etc,system/etc)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/lib,system/lib)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_DIR)/proprietary/lib,system/lib)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/usr,system/usr)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_DIR)/proprietary/usr,system/usr)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/vendor,system/vendor)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_DIR)/proprietary/vendor,system/vendor)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/xbin,system/xbin)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_DIR)/proprietary/xbin,system/xbin)
