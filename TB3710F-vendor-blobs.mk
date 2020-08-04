@@ -20,8 +20,6 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_DIR)/proprietary/
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_DIR)/proprietary/lib,system/lib)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_DIR)/proprietary/usr,system/usr)
-
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_DIR)/proprietary/vendor,system/vendor)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_DIR)/proprietary/xbin,system/xbin)
