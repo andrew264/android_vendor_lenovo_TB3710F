@@ -29,14 +29,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB3710F/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/lenovo/TB3710F/proprietary/bin/pq:system/bin/pq \
     vendor/lenovo/TB3710F/proprietary/bin/wmt_loader:system/bin/wmt_loader \
-    vendor/lenovo/TB3710F/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/lenovo/TB3710F/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/lenovo/TB3710F/proprietary/etc/bluetooth/auto_pair_blacklist.conf:system/etc/bluetooth/auto_pair_blacklist.conf \
     vendor/lenovo/TB3710F/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
-    vendor/lenovo/TB3710F/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
-    vendor/lenovo/TB3710F/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/lenovo/TB3710F/proprietary/etc/bluetooth/btconfig.xml:system/etc/bluetooth/btconfig.xml \
-    vendor/lenovo/TB3710F/proprietary/etc/clatd.conf:system/etc/clatd.conf \
     vendor/lenovo/TB3710F/proprietary/etc/custom.conf:system/etc/custom.conf \
     vendor/lenovo/TB3710F/proprietary/etc/factory.ini:system/etc/factory.ini \
     vendor/lenovo/TB3710F/proprietary/etc/firmware/ROMv2_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_patch_1_0_hdr.bin \
@@ -75,13 +71,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB3710F/proprietary/lib/lib_uree_mtk_crypto.so:system/lib/lib_uree_mtk_crypto.so \
     vendor/lenovo/TB3710F/proprietary/lib/lib_uree_mtk_video_secure_al.so:system/lib/lib_uree_mtk_video_secure_al.so \
     vendor/lenovo/TB3710F/proprietary/lib/libaed.so:system/lib/libaed.so \
-    vendor/lenovo/TB3710F/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
     vendor/lenovo/TB3710F/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/lenovo/TB3710F/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
     vendor/lenovo/TB3710F/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     vendor/lenovo/TB3710F/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
     vendor/lenovo/TB3710F/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
-    vendor/lenovo/TB3710F/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
     vendor/lenovo/TB3710F/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/lenovo/TB3710F/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/lenovo/TB3710F/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
@@ -111,13 +105,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB3710F/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/lenovo/TB3710F/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/lenovo/TB3710F/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
-    vendor/lenovo/TB3710F/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/lenovo/TB3710F/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/lenovo/TB3710F/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
     vendor/lenovo/TB3710F/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
     vendor/lenovo/TB3710F/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
     vendor/lenovo/TB3710F/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
-    vendor/lenovo/TB3710F/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/lenovo/TB3710F/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
     vendor/lenovo/TB3710F/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
     vendor/lenovo/TB3710F/proprietary/lib/libhwm.so:system/lib/libhwm.so \
@@ -126,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB3710F/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/lenovo/TB3710F/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/lenovo/TB3710F/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
-    vendor/lenovo/TB3710F/proprietary/lib/libmemtrack.so:system/lib/libmemtrack.so \
     vendor/lenovo/TB3710F/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/lenovo/TB3710F/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/lenovo/TB3710F/proprietary/lib/libmnl.so:system/lib/libmnl.so \
@@ -152,7 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB3710F/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/lenovo/TB3710F/proprietary/lib/libstagefright_memutil.so:system/lib/libstagefright_memutil.so \
     vendor/lenovo/TB3710F/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/lenovo/TB3710F/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/lenovo/TB3710F/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
     vendor/lenovo/TB3710F/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/lenovo/TB3710F/proprietary/lib/liburee_meta_drmkeyinstall_v2.so:system/lib/liburee_meta_drmkeyinstall_v2.so \
